@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c89366a-f110-49d6-9249-12f98825d619/deploy-status)](https://app.netlify.com/sites/fitfusion-fitness/deploys)
+
 # FitFusion Workout Generator
 
 <p float="left">
