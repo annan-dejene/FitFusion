@@ -12,6 +12,10 @@ FitFusion is a React.js workout generator application designed to help users cre
 
 The application leverages a predefined set of exercises, workout schemes, and tempos to generate tailored workout plans. Users can select individual muscle groups or predefined workout routines, and the application will filter and shuffle exercises to create a balanced and effective workout.
 
+## Live Demo
+
+Check out the live demo of the application [here](https://fitfusion-fitness.netlify.app/).
+
 ## Technologies Used
 
 - **React.js**: A JavaScript library for building user interfaces.
