@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { EXERCISES, SCHEMES, TEMPOS, WORKOUTS } from "./swolider";
 const exercises = exercisesFlattener(EXERCISES);
 
