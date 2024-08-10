@@ -13,6 +13,7 @@ const Generator = ({
   setMuscles,
   goal,
   setGoal,
+  updateWorkout,
 }) => {
   const [showModal, setShowModal] = useState(false);
 
@@ -134,7 +135,7 @@ const Generator = ({
         title={"Select your Goal"}
         description={"Choose the ultimate objective of your workout."}
       />
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         {Object.keys(SCHEMES).map((scheme, schemeIndex) => (
           <button
             className={
@@ -149,7 +150,7 @@ const Generator = ({
         ))}
       </div>
 
-      <Button buttonText={"Formulate"} />
+      <Button buttonText={"Formulate"} func={updateWorkout} />
     </SectionWrapper>
   );
 };
