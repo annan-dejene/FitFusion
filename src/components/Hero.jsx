@@ -20,7 +20,10 @@ const Hero = () => {
         afflicted with severe body dismorphia, unable to fit through doors.
       </p>
 
-      <Button buttonText={"Accept & Begin"} />
+      <Button
+        buttonText={"Accept & Begin"}
+        func={() => (window.location.href = "#generate")}
+      />
     </div>
   );
 };

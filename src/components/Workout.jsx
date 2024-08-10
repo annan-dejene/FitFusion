@@ -5,7 +5,11 @@ import SectionWrapper from "./SectionWrapper";
 const Workout = ({ workout }) => {
   console.log(workout);
   return (
-    <SectionWrapper header={"welcome to"} title={["The", "DANGER", "zone"]}>
+    <SectionWrapper
+      id={"workout"}
+      header={"welcome to"}
+      title={["The", "DANGER", "zone"]}
+    >
       <div className="flex flex-col gap-4">
         {workout.map((exercise, exerciseIndex) => (
           <ExerciseCard
