@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import SectionWrapper from "./SectionWrapper";
 import GeneratorHeader from "./GeneratorHeader";
@@ -5,11 +6,15 @@ import Button from "./Button";
 import { WORKOUTS, SCHEMES } from "../utils/swolider";
 import { FaCaretDown } from "react-icons/fa";
 
-const Generator = () => {
-  const [poison, setPoison] = useState("individual");
+const Generator = ({
+  poison,
+  setPoison,
+  muscles,
+  setMuscles,
+  goal,
+  setGoal,
+}) => {
   const [showModal, setShowModal] = useState(false);
-  const [muscles, setMuscles] = useState([]);
-  const [goal, setGoal] = useState("strength_power");
 
   const toggleModal = () => {
     setShowModal((prevVal) => !prevVal);
