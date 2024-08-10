@@ -1,7 +1,7 @@
 # FitFusion Workout Generator
 
 <p float="left">
-  <img src="/public/sample-1.png" width="300" />
+  <img src="/public/sample-1.png" width="200" />
   <img src="/public/sample-2.png" width="300" />
   <img src="/public/sample-3.png" width="300" />
 </p>
