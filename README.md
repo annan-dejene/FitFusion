@@ -1,9 +1,9 @@
 # FitFusion Workout Generator
 
-<p float="left">
-  <img src="/public/Screenshot 2024-08-10 at 3.39.41 PM.png" width="100" />
-  <img src="/public/Screenshot 2024-08-10 at 3.40.22 PM.png" width="100" />
-  <img src="/public/Screenshot 2024-08-10 at 3.40.48 PM.png" width="100" />
+<p float="left" height="100px">
+  <img src="/public/sample-1.png" width="300" />
+  <img src="/public/sample-2.png" width="300" />
+  <img src="/public/sample-3.png" width="300" />
 </p>
 
 FitFusion is a React.js workout generator application designed to help users create customized workout routines based on their specific goals, muscle groups, and workout environments.
