@@ -48,6 +48,7 @@ const Generator = ({
 
   return (
     <SectionWrapper
+      id="generator"
       header={"generate your workout"}
       title={["It's", "Fit", "o'clock"]}
     >
