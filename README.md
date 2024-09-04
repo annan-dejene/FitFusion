@@ -37,7 +37,7 @@ Check out the live demo of the application [here](https://fitfusion-fitness.netl
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/nasa-apod-react-app.git
+   git clone https://github.com/annan-dejene/FitFusion.git
    cd fitfusion
    ```
 
